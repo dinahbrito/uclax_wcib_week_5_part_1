@@ -70,5 +70,5 @@ function resetGame() {
 
   lastResult.style.backgroundColor = 'white';
 
-  randomNumber = Math.floor(Math.random() * 100) + 1;
+  randomNumber = Math.floor(Math.random() * 10) + 1;
 }
