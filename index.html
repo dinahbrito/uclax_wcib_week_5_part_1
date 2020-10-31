@@ -26,7 +26,7 @@
 
   <body class="text-center">
 
-    <div class="site-wrapper d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">Number Guessing Game</h3>
@@ -39,15 +39,10 @@
       <main role="main" class="inner cover">
 
         <h1 class="cover-heading">Can You Read My Mind?</h1>
-
-        <img src="../images/math_lady.jpg" alt="math lady meme">
-
         <p>I'm thinking of a number between 1 and 10, can you guess it?</p>
-
-
         <div class="form">
           <div class="form-group">
-            <label for="guessField">Enter a guess:</label>
+            <label for="guessField">Enter a number from 1-10:</label>
             <input type="text" class="form-control guessField" id="guessField" aria-describedby="emailHelp" placeholder="Enter a guess">
           </div>
           <input type="submit" value="Submit guess" class="btn btn-primary guessSubmit">

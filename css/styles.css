@@ -23,7 +23,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333; }
+  background-color: #333;
+  height: 100%;
+  background: url("../images/questionmarks.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 body {
   display: -ms-flexbox;
@@ -33,7 +39,8 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); }
 
 .cover-container {
-  max-width: 42em; }
+  max-width: 42em;
+  background-color: purple; }
 
 /*
  * Header
@@ -84,15 +91,7 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, 0.5); }
 
-.site-wrapper {
-  background-color: purple; }
-
 img {
   margin-top: 30px;
-  margin-bottom: 30px; }
-
-.guessField {
-  max-width: 300px; }
-
-.form-group {
+  margin-bottom: 30px;
   text-align: center; }
