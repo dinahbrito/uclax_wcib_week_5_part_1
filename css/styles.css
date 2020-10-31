@@ -103,8 +103,8 @@ img {
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
   color: #fff;
-  background-color: #DB7093;
-  border-color: #DB7093; }
+  background-color: #DB7093 !important;
+  border-color: #DB7093 !important; }
 
 .box {
   background-color: rgba(255, 20, 146, 0.37);
