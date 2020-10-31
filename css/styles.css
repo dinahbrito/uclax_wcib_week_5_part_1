@@ -96,10 +96,15 @@ img {
   margin-bottom: 30px;
   text-align: center; }
 
-.btn-primary {
+.btn-secondary {
   color: #fff;
   background-color: #FF1493;
   border-color: #FF1493; }
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+  color: #fff;
+  background-color: #DB7093;
+  border-color: #DB7093; }
 
 .box {
   background-color: rgba(255, 20, 146, 0.37);
