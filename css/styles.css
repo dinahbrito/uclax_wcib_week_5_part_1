@@ -100,3 +100,7 @@ img {
   color: #fff;
   background-color: #FF1493;
   border-color: #FF1493; }
+
+.box {
+  background-color: rgba(255, 20, 146, 0.37);
+  padding: 30px; }
